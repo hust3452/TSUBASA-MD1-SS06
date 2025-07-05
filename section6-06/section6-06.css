@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Component01*/
+.component01{
+    background-color: aliceblue;
+    width: 350px;
+    box-sizing: border-box;
+}
+.head01{
+    border-left: 5px solid #ffa600;
+    padding: 10px;
+}
+.content01 a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.content01 div{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.list01 li{
+    height: 50px;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-top:1px solid rgb(218, 218, 218);
+}
+.list01-01{
+    color: black;
+    text-decoration: none;
+}
+.list01-02{
+    color: black;
+    text-decoration: none; 
+}
+
+/*Component02*/
+.head02{
+    border-left: 5px solid #ffa600;
+    padding: 10px;
+}
+.component02{
+    background-color: aliceblue;
+    width: 350px;
+}
+.content02 img{
+  display: block;
+  height: auto;
+}
+.content02 ::after{
+  content: "";
+  position: absolute;
+  margin-top: 50px;
+  top: 17px;
+  left: 0px;
+  width: 350px;
+  height: 100%; /* Chiều cao phần đen mờ */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);  
+}
+.content02 a{
+    position: relative;
+    top: -150px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+}
+.list02{
+    margin-top: -70px;
+}
+.list02 li{
+    height: 50px;
+    font-weight: bolder;
+    border-top:1px solid rgb(218, 218, 218);
+}
+.list02-01{
+    color: black;
+    text-decoration: none;
+}
+.list02-02{
+    color: black;
+    text-decoration: none; 
+}
+
+
+/*Component03*/
+.component03{
+    background-color: rgb(248, 247, 246);
+    width: 800px;
+}
+.component03::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.component03 img {
+    text-align: center;
+    float: left;
+    background-color:aliceblue;
+    width: 45%;
+    box-sizing: border-box;
+}
+.column3-2 {
+    float: left;
+    background-color:aliceblue;
+    width: 50%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.column3-2-1{
+    color: rgb(39, 38, 38);
+    text-decoration: none;
+}
+.column3-2-2{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.column3-2-3{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.column3-2-4{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
