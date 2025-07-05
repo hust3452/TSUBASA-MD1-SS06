@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+header{
+    background-color: rgb(0,123,255);
+    color: white;
+}
+.tieude a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.chuthich {
+    background-color: beige;
+    height: 50px;
+    margin: 0px;
+}
+.chuthich1 {
+    margin-top: -35px;
+}
